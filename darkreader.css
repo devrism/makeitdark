@@ -19369,7 +19369,7 @@ a.p-channel_sidebar__channel.focus-ring, button.p-channel_sidebar__link.focus-ri
     box-shadow: none;
 }
 .p-channel_sidebar__channel.focus-ring .p-channel_sidebar__name, .p-channel_sidebar__link.focus-ring .p-channel_sidebar__name {
-    box-shadow: #0576b9 0px 0px 0px 1px, rgba(23, 106, 154, 0.3) 0px 0px 0px 5px;
+    box-shadow: none;
 }
 .p-invite_members_form__header_icon {
     color: #59b2e6;
@@ -19505,21 +19505,6 @@ a.p-channel_sidebar__channel.focus-ring, button.p-channel_sidebar__link.focus-ri
     border-bottom-color: initial;
     border-left-color: initial;
     box-shadow: none;
-}
-.p-custom_status_input__duration_picker_select .c-input_select__chevron, .p-custom_status_input__duration_picker_select .c-input_select__filter_input::-webkit-input-placeholder, .p-custom_status_input__duration_picker_select .c-input_select__selected_value--placeholder {
-    color: #bdb9b2;
-}
-.p-custom_status_input__duration_picker_select .c-input_select__chevron, .p-custom_status_input__duration_picker_select .c-input_select__filter_input::placeholder, .p-custom_status_input__duration_picker_select .c-input_select__selected_value--placeholder {
-    color: #bdb9b2;
-}
-.p-custom_status_input__custom_expiration_picker {
-    color: #bdb9b2;
-}
-.p-custom_status_input__custom_expiration_picker .c-input_select__chevron, .p-custom_status_input__custom_expiration_picker .c-input_select__filter_input::-webkit-input-placeholder, .p-custom_status_input__custom_expiration_picker .c-input_select__selected_value--placeholder, .p-custom_status_input__custom_expiration_picker .p-custom_status_input__chevron_down {
-    color: #bdb9b2;
-}
-.p-custom_status_input__custom_expiration_picker .c-input_select__chevron, .p-custom_status_input__custom_expiration_picker .c-input_select__filter_input::placeholder, .p-custom_status_input__custom_expiration_picker .c-input_select__selected_value--placeholder, .p-custom_status_input__custom_expiration_picker .p-custom_status_input__chevron_down {
-    color: #bdb9b2;
 }
 .p-custom_status_input--for_modern_user_menu .p-custom_status_input__presets, .p-custom_status_input--for_team_menu .p-custom_status_input__presets {
     border-top-color: #383838;
@@ -20037,14 +20022,8 @@ a.c-search_message__replies_count {
     border-bottom-color: #383838;
     border-left-color: #383838;
 }
-.c-message_group .c-message_group__header:focus, .c-message_group:hover .c-message_group__header {
-    color: #60c1fb;
-}
 .c-message_group .c-message_group__header:focus a, .c-message_group:hover .c-message_group__header a {
     color: inherit;
-}
-.c-message_group .c-message_group__header:focus .c-channel_name, .c-message_group .c-message_group__header:focus .c-channel_name__team_name, .c-message_group .c-message_group__header:focus .c-message_group__header_date, .c-message_group:hover .c-message_group__header .c-channel_name, .c-message_group:hover .c-message_group__header .c-channel_name__team_name, .c-message_group:hover .c-message_group__header .c-message_group__header_date {
-    color: #60c1fb;
 }
 .c-message_group:not(:hover) .c-channel_name__team_name {
     color: #bdb9b2;
@@ -20360,12 +20339,6 @@ a.c-search_message__replies_count {
 }
 .p-global_nav__channel_name .c-custom_status {
     color: #bdb9b2;
-}
-.p-global_nav__channel_topic_edit {
-    color: #60c1fb;
-}
-.p-global_nav__channel_topic_placeholder {
-    color: #60c1fb;
 }
 .p-global_nav__channel_topic_content {
     color: #bdb9b2;
@@ -21207,9 +21180,6 @@ a.p-oauth_flow__app_not_reviewed_link, a.p-oauth_flow__app_not_reviewed_link:lin
 .c-message_kit__labels__link, .c-message_kit__labels__link:focus, .c-message_kit__labels__link:hover {
     color: inherit;
 }
-.c-message_kit__labels--pinned .c-message_kit__labels__icon {
-    color: #f37145;
-}
 .c-message_kit__labels--starred .c-message_kit__labels__icon {
     color: #ffd633;
 }
@@ -21435,24 +21405,6 @@ a.p-oauth_flow__app_not_reviewed_link, a.p-oauth_flow__app_not_reviewed_link:lin
     border-right-color: initial;
     border-bottom-color: initial;
     border-left-color: initial;
-}
-.no_border {
-    border-top-color: initial;
-    border-right-color: initial;
-    border-bottom-color: initial;
-    border-left-color: initial;
-}
-.no_border_top {
-    border-top-color: initial;
-}
-.no_border_bottom {
-    border-bottom-color: initial;
-}
-.no_border_left {
-    border-left-color: initial;
-}
-.no_border_right {
-    border-right-color: initial;
 }
 .bordered {
     border-top-color: #383838;
@@ -21738,177 +21690,6 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename:hover {
     background-image: initial;
     background-color: #2b323e;
     color: #d9d7d2;
-}
-.color_9f69e7:not(.nuc) {
-    color: #9f69e7;
-}
-.color_4bbe2e:not(.nuc) {
-    color: #88dd73;
-}
-.color_e7392d:not(.nuc) {
-    color: #eb5b51;
-}
-.color_3c989f:not(.nuc) {
-    color: #8ccfd4;
-}
-.color_674b1b:not(.nuc) {
-    color: #e6cda1;
-}
-.color_e96699:not(.nuc) {
-    color: #e96699;
-}
-.color_e0a729:not(.nuc) {
-    color: #e7ba58;
-}
-.color_684b6c:not(.nuc) {
-    color: #c3bfb8;
-}
-.color_5b89d5:not(.nuc) {
-    color: #6da4da;
-}
-.color_2b6836:not(.nuc) {
-    color: #a9dbb2;
-}
-.color_99a949:not(.nuc) {
-    color: #c2cd8a;
-}
-.color_df3dc0:not(.nuc) {
-    color: #e45cca;
-}
-.color_4cc091:not(.nuc) {
-    color: #7cd1ae;
-}
-.color_9b3b45:not(.nuc) {
-    color: #d48e95;
-}
-.color_d58247:not(.nuc) {
-    color: #dd9968;
-}
-.color_bb86b7:not(.nuc) {
-    color: #c394bf;
-}
-.color_5a4592:not(.nuc) {
-    color: #a698ce;
-}
-.color_db3150:not(.nuc) {
-    color: #e35e76;
-}
-.color_235e5b:not(.nuc) {
-    color: #ace0dd;
-}
-.color_9e3997:not(.nuc) {
-    color: #d58bd0;
-}
-.color_53b759:not(.nuc) {
-    color: #84cc89;
-}
-.color_c386df:not(.nuc) {
-    color: #c386df;
-}
-.color_385a86:not(.nuc) {
-    color: #9ab9d5;
-}
-.color_a63024:not(.nuc) {
-    color: #e3877d;
-}
-.color_5870dd:not(.nuc) {
-    color: #6499df;
-}
-.color_ea2977:not(.nuc) {
-    color: #ee4e8e;
-}
-.color_50a0cf:not(.nuc) {
-    color: #70b1d8;
-}
-.color_d55aef:not(.nuc) {
-    color: #d55aef;
-}
-.color_d1707d:not(.nuc) {
-    color: #d37784;
-}
-.color_43761b:not(.nuc) {
-    color: #bbe797;
-}
-.color_e06b56:not(.nuc) {
-    color: #e27460;
-}
-.color_8f4a2b:not(.nuc) {
-    color: #dda78f;
-}
-.color_902d59:not(.nuc) {
-    color: #dc8fb2;
-}
-.color_de5f24:not(.nuc) {
-    color: #e68659;
-}
-.color_a2a5dc:not(.nuc) {
-    color: #a2b8dc;
-}
-.color_827327:not(.nuc) {
-    color: #dfd396;
-}
-.color_3c8c69:not(.nuc) {
-    color: #98d3b9;
-}
-.color_8d4b84:not(.nuc) {
-    color: #cb9dc4;
-}
-.color_84b22f:not(.nuc) {
-    color: #badc7b;
-}
-.color_4ec0d6:not(.nuc) {
-    color: #69cadc;
-}
-.color_e23f99:not(.nuc) {
-    color: #e659a7;
-}
-.color_e475df:not(.nuc) {
-    color: #e475df;
-}
-.color_619a4f:not(.nuc) {
-    color: #a2c996;
-}
-.color_a72f79:not(.nuc) {
-    color: #dc82b9;
-}
-.color_7d414c:not(.nuc) {
-    color: #cfa4ac;
-}
-.color_aba727:not(.nuc) {
-    color: #e1de7c;
-}
-.color_965d1b:not(.nuc) {
-    color: #e9ba83;
-}
-.color_4d5e26:not(.nuc) {
-    color: #cfdead;
-}
-.color_dd8527:not(.nuc) {
-    color: #e5a25b;
-}
-.color_bd9336:not(.nuc) {
-    color: #d8ba77;
-}
-.color_e85d72:not(.nuc) {
-    color: #e85d72;
-}
-.color_dc7dbb:not(.nuc) {
-    color: #dc7dbb;
-}
-.color_bc3663:not(.nuc) {
-    color: #d87798;
-}
-.color_9d8eee:not(.nuc) {
-    color: #9d8eee;
-}
-.color_8469bc:not(.nuc) {
-    color: #9d88ca;
-}
-.color_73769d:not(.nuc) {
-    color: #a0abbc;
-}
-.color_b14cbc:not(.nuc) {
-    color: #c77fcf;
 }
 #trouble_loading {
     background-image: initial;

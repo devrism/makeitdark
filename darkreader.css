@@ -19330,7 +19330,7 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.1) 0px 1px 3px inset;
 }
 .p-channel_sidebar__banner--bottom {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 6px, rgba(0, 0, 0, 0.1) 0px -1px 3px inset;
+    box-shadow: none;
 	background-color:#6F7986;
 }
 .p-channel_sidebar__banner--mentions {
@@ -19339,10 +19339,14 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename {
 }
 .p-channel_sidebar__banner--unreads {
     background-image: initial;
-    background-color: #176a9a;
+    background-color: #6F7986;
 }
 .p-channel_sidebar__channel:active, .p-channel_sidebar__channel:focus, .p-channel_sidebar__channel:hover, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:active, .p-channel_sidebar__link:focus, .p-channel_sidebar__link:hover, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited {
     text-decoration-color: initial;
+}
+.p-channel_sidebar__channel:hover{
+	background-color:#36393F;
+	color:#B9BBBE;
 }
 .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--draft::before {
     color: inherit;
@@ -21633,16 +21637,9 @@ ts-jumper ol li .unread_count {
     background-color: #2b323e;
     color: #b8b3ac;
 }
-.p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover {
-    color: #b8b3ac;
-}
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
     color: #ffffff;
 	background-color:#42464D;
-}
-.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
-    background-image: initial;
-    background-color: #074cad;
 }
 .p-channel_sidebar__header {
     color: #b8b3ac;

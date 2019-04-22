@@ -19341,12 +19341,18 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename {
     background-image: initial;
     background-color: #6F7986;
 }
-.p-channel_sidebar__channel:active, .p-channel_sidebar__channel:focus, .p-channel_sidebar__channel:hover, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:active, .p-channel_sidebar__link:focus, .p-channel_sidebar__link:hover, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited {
-    text-decoration-color: initial;
-}
-.p-channel_sidebar__channel:hover{
+.c-link.p-channel_sidebar__channel:hover{
 	background-color:#36393F;
 	color:#B9BBBE;
+    border-radius: 3px;
+    width: 208px;
+    margin-left: 6px;
+}
+.c-link.p-channel_sidebar__channel{
+	border-radius: 3px;
+    width: 208px;
+    margin-left: 6px;
+	color:#6B6E74;
 }
 .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--draft::before {
     color: inherit;

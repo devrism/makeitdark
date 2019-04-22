@@ -15528,8 +15528,11 @@ a.c-sidebar_menu__list_item {
 }
 .c-scrollbar__bar {
     background-image: initial;
-    background-color: rgba(39, 44, 53, 0.52);
-    outline-color: initial;
+    outline-color: none;
+	height: 300px; 
+	transform: translateX(5.5px); 
+	background-color: #26282C;
+	width: 4px;
 }
 .c-scrollbar--monkey .c-scrollbar__track {
     background-image: initial;
@@ -15537,7 +15540,7 @@ a.c-sidebar_menu__list_item {
 }
 .c-scrollbar--monkey .c-scrollbar__bar {
     background-image: initial;
-    background-color: rgba(39, 44, 53, 0.52);
+    background-color: #26282C;
     box-shadow: #36393E 0px 3px 0px, #36393E 0px -3px 0px;
 }
 .c-virtual_list--slack_scrollbar {
@@ -19328,6 +19331,7 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename {
 }
 .p-channel_sidebar__banner--bottom {
     box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 6px, rgba(0, 0, 0, 0.1) 0px -1px 3px inset;
+	background-color:#6F7986;
 }
 .p-channel_sidebar__banner--mentions {
     background-image: initial;
@@ -21634,6 +21638,7 @@ ts-jumper ol li .unread_count {
 }
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
     color: #ffffff;
+	background-color:#42464D;
 }
 .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover, .p-channel_sidebar__close_container:hover {
     background-image: initial;
@@ -21641,6 +21646,12 @@ ts-jumper ol li .unread_count {
 }
 .p-channel_sidebar__header {
     color: #b8b3ac;
+}
+.c-button-unstyled.p-channel_sidebar__link.p-channel_sidebar__link--all-threads.p-channel_sidebar__link--selected {
+	background-color:#42464D;
+	border-radius:3px; 
+	width:208px; 
+	margin-left:6px;"
 }
 input[type="text"].p-channel_sidebar__folder_heading_label_rename {
     background-image: initial;
@@ -21661,20 +21672,13 @@ input[type="text"].p-channel_sidebar__folder_heading_label_rename:hover {
 .p-channel_sidebar__channel--im .c-presence--away {
     color: #b8b3ac;
 }
-.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
-    background-image: initial;
-    background-color: #313e50;
-}
 .p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after, .p-channel_sidebar__link--selected::after, .p-channel_sidebar__link--selected::after {
     color: #ffffff;
-}
-.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions {
-    background-image: initial;
-    background-color: #074cad;
+	background-color:#42464D;
 }
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar {
     background-image: initial;
-    background-color: rgba(33, 36, 43, 0.45);
+    background-color: #26282C;
 }
 .client_channels_list_container.focusablesection:focus .sectionfocusindicator, .client_channels_list_container .focus-ring, .p-channel_sidebar.focusablesection:focus .sectionfocusindicator, #team_menu.focusablesection:focus .sectionfocusindicator {
     box-shadow: #21242b 0px 0px 0px 1px, rgba(33, 36, 43, 0.3) 0px 0px 0px 5px;
@@ -21980,6 +21984,8 @@ body.has_loading_trouble #trouble_loading_overlay {
 	border:none;
 	border-radius:7px;
 	background-color:#6F7986;
+	height:30px;
+	margin-bottom:10px;
 }
 .p_threads_view_load_older_button:hover {
 	border:none;
@@ -21991,9 +21997,9 @@ body.has_loading_trouble #trouble_loading_overlay {
     -webkit-transition:.5s;
 	transition:.5s;
 }
-..p-threads_view__top_banners {
+
+.p-threads_view__top_banners {
 	background-color: #6F7986;
-	border-top-radius:
 }
 .p-threads_view__top_banners::before {
 	background-color:transparent;
